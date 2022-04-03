@@ -43,7 +43,7 @@ def test_basic3():
     assert generated_code == expected_code
 
 
-def test_a_girl_is_nobody():
+def test_a_girl_is_no_one():
     generated_code = gen_fiscal_code({
         "forename": "",
         "surname": "",
@@ -56,7 +56,7 @@ def test_a_girl_is_nobody():
     assert generated_code == expected_code
 
 
-def test_a_boy_is_nobody():
+def test_a_boy_is_no_one():
     generated_code = gen_fiscal_code({
         "forename": "",
         "surname": "",
